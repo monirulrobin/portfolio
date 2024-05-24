@@ -1,0 +1,139 @@
+body{
+    width: 0 auto;
+}
+
+/* header bar */
+.header-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header-logobar{
+    border-radius: 5px solid red;
+}
+.header-menu{
+    display: flex;
+    gap: 5%;
+    padding: 5px 2px;
+}
+.header-btn-hireme{
+    background-color: brown;
+    margin: none;
+    height: 100%;
+}
+
+.bannerdiv{
+    height: 650px;
+    width: 1170px;
+    
+}
+.bandivtext{
+    color: white;
+    text-align: center;
+}
+.bandivtextp{
+    color: white;
+    text-align: center;
+    text-shadow: 2px;
+    padding: 5px;
+}
+.bandivser{
+    text-align: center;
+    padding: 5px;
+}
+
+.textheading{
+    color: black;
+    text-align: center;
+}
+.text-p{
+    color: black;
+    text-align: center;
+    font-size: 12px;
+}
+.mainview{
+    margin: 5%;
+}
+.mainview-up, .mainview-down{
+    display: flex;
+    text-align: center;
+}
+
+.mainviewup-div{
+    border: 1px solid black;
+}
+.mainviewup-img{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: inset;
+}
+.mainviewup-heading{
+    color: crimson;
+    text-align: center;
+    stroke: 1px solid black;
+}
+.mainviewup-button{
+    height: 30px;
+    width: 30px;
+    position: relative;
+}
+.bannerdiv-down{
+    display: flex;
+    flex-direction: column;
+}
+.bannerdivdown-img{
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+}
+.solutionarea{
+    display: flex;
+    width: 100%;
+    border: 2px solid black;
+}
+.solutionarea-left{
+    width: 90%;
+    padding: 10%;
+    border: 2px solid black;
+}
+.solutionarea-right{
+    width: 90%;
+    padding: 10%;
+}
+.contactusform{
+    display: flex;
+    width: auto;
+}
+.main{
+    flex-direction: column;
+    width: 50%;
+}
+.mainA{
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+}
+.mainB{
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+}
+.contactusforminput{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+input{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
